@@ -1,13 +1,8 @@
-import Hero from "./componets/Hero";
-import Nav from "./componets/Nav";
-
-const App = () => {
+const page = () => {
   return (
     <>
-      <Nav />
-      <Hero />
+      <h1>Prest</h1>
     </>
   );
 };
-
-export default App;
+export default page;
