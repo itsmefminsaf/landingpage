@@ -1,1 +1,1 @@
-# Landing Page for a computer parts selling shop..
+# Landing Page for a hotel named Prest
