@@ -1,7 +1,11 @@
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
+
 const page = () => {
   return (
     <>
-      <h1>Prest</h1>
+      <Nav />
+      <Hero />
     </>
   );
 };
