@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .nav-link {
-  @apply hover:underline underline-offset-4;
+  @apply flex gap-1 hover:underline underline-offset-4;
 }
