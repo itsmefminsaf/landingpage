@@ -3,7 +3,7 @@ import CTA from "./CTA";
 
 const Nav = () => {
   return (
-    <nav className="absolute flex items-center justify-between bg-black text-blue-50 w-[96%] left-[2%] top-2 p-2 px-7 rounded-xl backdrop-blur-xl">
+    <nav className="fixed flex items-center justify-between bg-black text-blue-50 w-[96%] left-[2%] top-2 p-2 px-7 rounded-xl backdrop-blur-xl">
       <div className="h-[3.5rem] flex items-center justify-center">
         <h1 className="relative font-extrabold text-3xl group/logo px-2">
           <span className="text-4xl">P</span>
