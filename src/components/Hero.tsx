@@ -1,6 +1,10 @@
+import Slider from "./Slider";
+
 const Hero = () => {
   return (
-    <main className="w-full h-screen bg-gradient-to-b from-blue-200 to-orange-100 peer"></main>
+    <main className="w-full h-screen">
+      <Slider className="w-full h-full" />
+    </main>
   );
 };
 
