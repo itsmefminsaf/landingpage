@@ -12,7 +12,7 @@ const Nav = () => {
           </span>
         </h1>
       </div>
-      <ul className="flex items-center justify-between w-2/5">
+      <ul className="flex items-center justify-between w-2/5 ">
         <li className="nav-link">
           <Info className="hover:-scale-x-100 duration-75" />
           <a href="#about">About</a>
