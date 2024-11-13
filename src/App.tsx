@@ -1,13 +1,5 @@
-import { Suspense } from "react";
-import Hero from "./components/Hero";
-import Nav from "./components/Nav";
-
-const page = () => {
-  return (
-    <Suspense fallback={<h1>Loading...</h1>}>
-      <Nav />
-      <Hero />
-    </Suspense>
-  );
+const App = () => {
+  return <main className="text-3xl bg-cyan-100 text-neutral-600">Ai</main>;
 };
-export default page;
+
+export default App;
