@@ -1,0 +1,9 @@
+{
+  "navItems": [
+    { "link": "#home", "text": "Home" },
+    { "link": "#about", "text": "About" },
+    { "link": "#Features", "text": "Features" },
+    { "link": "#Pricing", "text": "Pricing" },
+    { "link": "#contact", "text": "Contact" }
+  ]
+}
