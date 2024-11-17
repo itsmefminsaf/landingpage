@@ -13,19 +13,16 @@ export default {
         },
       },
       boxShadow: {
-        xxl: "0px 30px 30px -12px",
+        xxl: "0px 15px 30px -12px",
+        inverted_radius: "1rem -1.5rem 0px 0px",
       },
       animation: {
-        transtateY: "transtateY .3s linear",
+        scaleY: "scaleY .3s linear",
       },
       keyframes: {
-        transtateY: {
-          from: {
-            right: "-8rem",
-          },
-          to: {
-            right: "0.25rem",
-          },
+        scaleY: {
+          from: { transform: "scaleY(0)" },
+          to: { transform: "scaleY(1)" },
         },
       },
     },
